@@ -5,3 +5,7 @@ scikit-learn
 openai
 PyPDF2
 python-docx
+python-dotenv
+tqdm
+requests
+Pillow
