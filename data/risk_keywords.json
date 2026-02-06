@@ -1,0 +1,374 @@
+{
+  "risk_categories": {
+    "penalty_clauses": {
+      "keywords": [
+        "liquidated damages",
+        "penalty",
+        "fine",
+        "forfeit",
+        "monetary penalty",
+        "late fee",
+        "delay charges",
+        "breach damages",
+        "compensation for breach",
+        "additional charges"
+      ],
+      "risk_level": "high",
+      "description": "Clauses that impose financial penalties for breaches or delays",
+      "mitigation": "Ensure penalties are reasonable and proportionate. Request caps on liability and grace periods."
+    },
+    "indemnity_clauses": {
+      "keywords": [
+        "indemnify",
+        "hold harmless",
+        "defend",
+        "indemnification",
+        "save harmless",
+        "compensate for losses",
+        "assume liability",
+        "make good",
+        "reimburse",
+        "bear all losses"
+      ],
+      "risk_level": "high",
+      "description": "Clauses requiring one party to compensate the other for losses",
+      "mitigation": "Limit indemnity to direct damages, exclude consequential losses, and cap liability."
+    },
+    "unilateral_termination": {
+      "keywords": [
+        "terminate without cause",
+        "at sole discretion",
+        "unilateral termination",
+        "terminate at will",
+        "immediate termination",
+        "termination without notice",
+        "cancel unilaterally",
+        "right to terminate",
+        "without showing cause",
+        "termination for convenience"
+      ],
+      "risk_level": "high",
+      "description": "Clauses allowing one party to terminate the contract without mutual agreement",
+      "mitigation": "Request mutual termination rights, reasonable notice periods, and cause-based termination only."
+    },
+    "arbitration_jurisdiction": {
+      "keywords": [
+        "exclusive jurisdiction",
+        "binding arbitration",
+        "venue",
+        "governing law",
+        "dispute resolution",
+        "arbitral tribunal",
+        "seat of arbitration",
+        "forum selection",
+        "legal proceedings",
+        "court jurisdiction"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses specifying legal jurisdiction and dispute resolution mechanisms",
+      "mitigation": "Request neutral jurisdiction, reasonable arbitration costs, and option for mediation first."
+    },
+    "auto_renewal": {
+      "keywords": [
+        "automatic renewal",
+        "auto-renew",
+        "evergreen clause",
+        "automatic extension",
+        "renew automatically",
+        "continue automatically",
+        "self-renewing",
+        "rollover",
+        "perpetual renewal",
+        "indefinite extension"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses that automatically renew contracts without explicit consent",
+      "mitigation": "Request opt-in renewal, advance notice requirements, and easy cancellation process."
+    },
+    "lock_in_periods": {
+      "keywords": [
+        "minimum term",
+        "lock-in period",
+        "mandatory period",
+        "fixed duration",
+        "binding period",
+        "commitment period",
+        "minimum commitment",
+        "term binding",
+        "irrevocable period",
+        "forced continuation"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses that force parties to continue the contract for a fixed period",
+      "mitigation": "Request flexible terms, early termination options, and reasonable notice periods."
+    },
+    "non_compete": {
+      "keywords": [
+        "non-compete",
+        "restrictive covenant",
+        "competition restriction",
+        "business restriction",
+        "prohibited activities",
+        "conflict of interest",
+        "restraint of trade",
+        "competitive business",
+        "similar business",
+        "restricted activities"
+      ],
+      "risk_level": "high",
+      "description": "Clauses restricting one party from engaging in competing businesses",
+      "mitigation": "Limit scope, duration (max 1-2 years), and geographical area. Ensure reasonable restrictions."
+    },
+    "ip_transfer": {
+      "keywords": [
+        "intellectual property",
+        "IP assignment",
+        "copyright transfer",
+        "patent rights",
+        "trade secrets",
+        "proprietary rights",
+        "ownership transfer",
+        "all rights reserved",
+        "exclusive rights",
+        "perpetual license"
+      ],
+      "risk_level": "high",
+      "description": "Clauses transferring intellectual property rights between parties",
+      "mitigation": "Retain IP for pre-existing work. Limit transfer to work-for-hire. Request royalty-free licenses."
+    },
+    "confidentiality_nda": {
+      "keywords": [
+        "confidential information",
+        "non-disclosure",
+        "proprietary information",
+        "trade secrets",
+        "confidentiality obligation",
+        "non-circumvention",
+        "secrecy",
+        "protected information",
+        "classified information",
+        "restricted information"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses protecting sensitive business information",
+      "mitigation": "Define confidential information clearly, include exceptions, and reasonable duration (2-3 years)."
+    },
+    "force_majeure": {
+      "keywords": [
+        "force majeure",
+        "act of god",
+        "unforeseen circumstances",
+        "beyond control",
+        "impossibility",
+        "frustration",
+        "natural disaster",
+        "government action",
+        "epidemic",
+        "pandemic"
+      ],
+      "risk_level": "low",
+      "description": "Clauses addressing unforeseeable circumstances preventing contract performance",
+      "mitigation": "Define events clearly, include notice requirements, and specify reasonable suspension period."
+    },
+    "payment_terms": {
+      "keywords": [
+        "advance payment",
+        "full payment upfront",
+        "non-refundable deposit",
+        "payment in advance",
+        "upfront fees",
+        "retention amount",
+        "payment before delivery",
+        "withholding payment",
+        "late payment interest",
+        "payment schedule"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses related to payment schedules, advances, and penalties",
+      "mitigation": "Request milestone-based payments, reasonable retention amounts, and clear payment terms."
+    },
+    "warranties": {
+      "keywords": [
+        "warranty",
+        "guarantee",
+        "assurance",
+        "representation",
+        "warrant",
+        "certify",
+        "undertake",
+        "promise",
+        "assure",
+        "vouch"
+      ],
+      "risk_level": "medium",
+      "description": "Clauses providing assurances about products, services, or performance",
+      "mitigation": "Limit warranty period, exclude implied warranties, and cap warranty claims."
+    }
+  },
+  
+  "risk_levels": {
+    "high": {
+      "score": 3,
+      "color": "#FF6B6B",
+      "action": "Immediate review recommended. Significant legal/financial exposure.",
+      "threshold": 0.8
+    },
+    "medium": {
+      "score": 2,
+      "color": "#FFD93D",
+      "action": "Review recommended. Moderate risk that should be addressed.",
+      "threshold": 0.5
+    },
+    "low": {
+      "score": 1,
+      "color": "#6BCF7F",
+      "action": "Standard clause. Minor issues that can be negotiated.",
+      "threshold": 0.2
+    }
+  },
+  
+  "industry_specific_risks": {
+    "technology": [
+      "source code escrow",
+      "service level agreement",
+      "uptime guarantee",
+      "data privacy",
+      "GDPR compliance",
+      "data breach",
+      "cyber liability",
+      "software license"
+    ],
+    "manufacturing": [
+      "product liability",
+      "defective goods",
+      "quality control",
+      "inspection rights",
+      "manufacturing defects",
+      "safety standards",
+      "BIS certification",
+      "warranty claims"
+    ],
+    "real_estate": [
+      "security deposit",
+      "maintenance charges",
+      "property taxes",
+      "municipal approvals",
+      "fire safety",
+      "occupancy certificate",
+      "rent escalation",
+      "lock-in period"
+    ],
+    "consulting": [
+      "deliverable acceptance",
+      "knowledge transfer",
+      "work product",
+      "consultant liability",
+      "professional indemnity",
+      "result guarantee",
+      "scope creep",
+      "change requests"
+    ],
+    "retail": [
+      "inventory management",
+      "return policy",
+      "damaged goods",
+      "shelf life",
+      "minimum order quantity",
+      "stock rotation",
+      "point of sale",
+      "customer data"
+    ]
+  },
+  
+  "indian_law_compliance": {
+    "contract_act_1872": [
+      "consideration",
+      "free consent",
+      "competent parties",
+      "lawful object",
+      "void agreement",
+      "contingent contract",
+      "performance of contract",
+      "breach of contract"
+    ],
+    "companies_act_2013": [
+      "related party transaction",
+      "board approval",
+      "shareholder approval",
+      "authorized signatory",
+      "company seal",
+      "memorandum of association",
+      "articles of association"
+    ],
+    "gst_compliance": [
+      "GST invoice",
+      "input tax credit",
+      "place of supply",
+      "HSN code",
+      "GST registration",
+      "tax invoice",
+      "reverse charge",
+      "composition scheme"
+    ],
+    "labor_laws": [
+      "provident fund",
+      "employees state insurance",
+      "gratuity",
+      "minimum wages",
+      "shop and establishment",
+      "maternity benefit",
+      "sexual harassment",
+      "industrial dispute"
+    ],
+    "intellectual_property": [
+      "patent act",
+      "copyright act",
+      "trademark act",
+      "designs act",
+      "geographical indications",
+      "trade secrets",
+      "confidential information"
+    ]
+  },
+  
+  "mitigation_suggestions": {
+    "general": [
+      "Add reasonable notice periods (30-60 days)",
+      "Include cure periods for breaches (15-30 days)",
+      "Cap liability to contract value or insurance coverage",
+      "Specify dispute resolution through mediation first",
+      "Define terms clearly to avoid ambiguity",
+      "Include termination for convenience with notice",
+      "Add review periods for auto-renewal clauses",
+      "Include force majeure with clear definitions"
+    ],
+    "sme_friendly": [
+      "Avoid personal guarantees where possible",
+      "Request milestone-based payments",
+      "Limit contract duration to 1-3 years",
+      "Include easy exit clauses",
+      "Avoid unlimited liability",
+      "Request pro-rata refunds for early termination",
+      "Include price protection against inflation",
+      "Add renegotiation clauses for long-term contracts"
+    ],
+    "negotiation_tips": [
+      "Start with 'We propose more balanced terms...'",
+      "Use 'mutual' instead of 'unilateral'",
+      "Request 'reasonable' instead of 'absolute'",
+      "Add 'subject to written consent'",
+      "Include 'to the extent permitted by law'",
+      "Use 'best efforts' instead of 'guaranteed'",
+      "Add 'acting in good faith' obligations",
+      "Include 'without undue delay' timeframes"
+    ]
+  },
+  
+  "clause_templates": {
+    "balanced_termination": "Either party may terminate this Agreement by providing [number] days written notice to the other party. In the event of termination, both parties shall fulfill their obligations until the effective date of termination.",
+    "reasonable_indemnity": "Each party shall indemnify the other against direct losses arising from its breach of this Agreement, provided that total liability shall not exceed the total fees paid under this Agreement.",
+    "mutual_confidentiality": "Both parties agree to maintain the confidentiality of each other's proprietary information for a period of [number] years after termination, excluding information that becomes publicly available through no fault of the receiving party.",
+    "fair_jurisdiction": "Any disputes arising from this Agreement shall first be attempted to be resolved through mutual discussion. If unresolved, the parties agree to mediation before pursuing arbitration or litigation in courts having jurisdiction in [neutral location].",
+    "balanced_payment": "Payment shall be made within [number] days of receipt of invoice. Late payments shall accrue interest at [reasonable percentage] per month. The Client may withhold payment for disputed amounts in good faith while resolving the dispute."
+  }
+}

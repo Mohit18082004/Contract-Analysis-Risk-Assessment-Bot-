@@ -1,0 +1,170 @@
+NON-DISCLOSURE AGREEMENT (NDA)
+
+This Non-Disclosure Agreement is entered into on {{ agreement_date }} by and between:
+
+DISCLOSING PARTY:
+Name: {{ disclosing_party_name }}
+Address: {{ disclosing_party_address }}
+Contact: {{ disclosing_party_contact }}
+
+(Hereinafter referred to as "Disclosing Party")
+
+AND
+
+RECEIVING PARTY:
+Name: {{ receiving_party_name }}
+Address: {{ receiving_party_address }}
+Contact: {{ receiving_party_contact }}
+
+(Hereinafter referred to as "Receiving Party")
+
+RECITALS:
+
+WHEREAS, the Disclosing Party possesses certain confidential and proprietary information;
+
+WHEREAS, the parties desire to evaluate a potential business opportunity;
+
+WHEREAS, the Receiving Party requires access to certain confidential information for this evaluation;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+"Confidential Information" means all non-public information disclosed by the Disclosing Party to the Receiving Party, including but not limited to:
+
+{{ confidential_information_description }}
+
+This includes:
+- Technical data and specifications
+- Business plans and strategies
+- Financial information
+- Customer lists and pricing
+- Proprietary methods and processes
+
+2. EXCLUSIONS
+
+Confidential Information does not include information that:
+a) Is or becomes publicly available through no breach of this Agreement
+b) Was rightfully possessed before disclosure
+c) Is independently developed without use of the Confidential Information
+d) Is rightfully received from a third party without confidentiality obligation
+
+3. TERM OF CONFIDENTIALITY
+
+The Receiving Party shall maintain confidentiality for a period of {{ confidentiality_duration }} from the date of disclosure, except for:
+{{ long_term_obligations }}
+
+4. OBLIGATIONS OF THE RECEIVING PARTY
+
+The Receiving Party agrees to:
+
+4.1 Maintain the Confidential Information in strict confidence
+4.2 Not disclose the Confidential Information to any third party without prior written consent
+4.3 Use the Confidential Information only for the stated purpose
+4.4 Implement reasonable security measures to protect the information
+4.5 Limit access to employees with a need to know
+4.6 Return or destroy all Confidential Information upon request
+
+5. PERMITTED DISCLOSURES
+
+The Receiving Party may disclose Confidential Information only to:
+a) Employees with a need to know (under written confidentiality obligation)
+b) Legal and financial advisors (under professional confidentiality)
+c) Courts/governmental authorities (if legally required, with {{ notice_period }} days notice)
+
+6. NO OBLIGATION TO DISCLOSE
+
+Neither party is obligated to disclose any information or proceed with any transaction.
+
+7. NO LICENSE GRANTED
+
+Disclosure of Confidential Information does not grant any license or rights to the Receiving Party.
+
+8. OWNERSHIP OF INFORMATION
+
+All Confidential Information remains the sole property of the Disclosing Party.
+
+9. RETURN OF INFORMATION
+
+Upon termination or request, the Receiving Party shall:
+a) Return all Confidential Information documents
+b) Certify in writing that all copies have been returned or destroyed
+c) Delete all electronic copies
+
+10. NO REPRESENTATION OR WARRANTY
+
+The Confidential Information is provided "AS IS" without any warranties or representations.
+
+11. REMEDIES
+
+The Receiving Party acknowledges that:
+a) Breach may cause irreparable harm
+b) Monetary damages may be inadequate
+c) The Disclosing Party shall be entitled to injunctive relief
+
+12. NO PARTNERSHIP
+
+This Agreement does not create a partnership, joint venture, or agency relationship.
+
+13. TERM AND TERMINATION
+
+13.1 This Agreement shall commence on the date hereof.
+
+13.2 Either party may terminate with {{ termination_notice_period }} days written notice.
+
+13.3 Confidentiality obligations shall survive termination.
+
+14. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of {{ governing_jurisdiction }}.
+
+15. JURISDICTION
+
+The parties irrevocably submit to the exclusive jurisdiction of the courts of {{ jurisdiction }} for any disputes.
+
+16. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties regarding the subject matter and supersedes all prior agreements.
+
+17. AMENDMENTS
+
+No amendment or modification is valid unless in writing and signed by both parties.
+
+18. SEVERABILITY
+
+If any provision is found invalid, such invalidity shall not affect other provisions.
+
+19. WAIVER
+
+No waiver of any provision shall be effective unless in writing.
+
+20. COUNTERPARTS
+
+This Agreement may be executed in counterparts, each constituting an original.
+
+IN WITNESS WHEREOF, the parties have executed this NDA as of the date first written above:
+
+FOR THE DISCLOSING PARTY:
+
+{{ disclosing_party_name }}
+Signature: ___________________
+Title: ___________________
+Date: ___________________
+
+
+FOR THE RECEIVING PARTY:
+
+{{ receiving_party_name }}
+Signature: ___________________
+Title: ___________________
+Date: ___________________
+
+Witnesses:
+
+1. ___________________
+   Signature: ___________________
+   Date: ___________________
+
+2. ___________________
+   Signature: ___________________
+   Date: ___________________

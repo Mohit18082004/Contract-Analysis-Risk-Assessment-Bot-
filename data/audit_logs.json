@@ -1,0 +1,167 @@
+{
+  "audit_config": {
+    "retention_period_days": 365,
+    "log_levels": ["INFO", "WARNING", "ERROR", "SECURITY"],
+    "sensitive_fields": [
+      "aadhaar",
+      "pan",
+      "bank_account",
+      "credit_card",
+      "password",
+      "signature",
+      "biometric"
+    ],
+    "masking_rules": {
+      "pan": "XXXXX9999X",
+      "aadhaar": "XXXX-XXXX-9999",
+      "phone": "XXXXX-99999",
+      "email": "masked@domain.com"
+    }
+  },
+  
+  "audit_logs": [],
+  
+  "sample_log_entry": {
+    "timestamp": "2024-01-15T10:30:45Z",
+    "log_id": "AUDIT-2024-001",
+    "session_id": "SESSION-ABC123",
+    "user_id": "user_anonymous",
+    "ip_address": "192.168.1.100",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "action": "CONTRACT_UPLOAD",
+    "resource": "contract_analysis",
+    "resource_id": "CONTRACT-001",
+    "details": {
+      "file_name": "employment_agreement.pdf",
+      "file_size": "245.6 KB",
+      "file_type": "pdf",
+      "contract_type": "employment",
+      "language": "English",
+      "clause_count": 24,
+      "risk_score": "medium"
+    },
+    "status": "SUCCESS",
+    "duration_ms": 1234,
+    "error_code": null,
+    "error_message": null,
+    "security_flags": [],
+    "compliance_checks": {
+      "data_retention": true,
+      "consent_recorded": true,
+      "privacy_check": true
+    }
+  },
+  
+  "log_schemas": {
+    "CONTRACT_UPLOAD": {
+      "required_fields": ["file_name", "file_type", "contract_type"],
+      "sensitive_data_check": true,
+      "privacy_compliance": true
+    },
+    "CONTRACT_ANALYSIS": {
+      "required_fields": ["contract_id", "analysis_type", "risk_score"],
+      "sensitive_data_check": false,
+      "privacy_compliance": true
+    },
+    "TEMPLATE_GENERATION": {
+      "required_fields": ["template_type", "parameters"],
+      "sensitive_data_check": false,
+      "privacy_compliance": false
+    },
+    "USER_ACTION": {
+      "required_fields": ["action_type", "element_id"],
+      "sensitive_data_check": false,
+      "privacy_compliance": false
+    },
+    "EXPORT_OPERATION": {
+      "required_fields": ["export_type", "format", "content_size"],
+      "sensitive_data_check": true,
+      "privacy_compliance": true
+    },
+    "ERROR_EVENT": {
+      "required_fields": ["error_code", "error_message", "stack_trace"],
+      "sensitive_data_check": false,
+      "privacy_compliance": false
+    },
+    "SECURITY_EVENT": {
+      "required_fields": ["event_type", "severity", "description"],
+      "sensitive_data_check": true,
+      "privacy_compliance": true
+    }
+  },
+  
+  "privacy_compliance": {
+    "gdpr_applicable": false,
+    "indian_privacy_laws": {
+      "applicable": true,
+      "laws": ["IT Act 2000", "DPDP Act 2023"],
+      "data_localization": false,
+      "consent_required": true
+    },
+    "data_handling": {
+      "encryption_at_rest": true,
+      "encryption_in_transit": true,
+      "data_minimization": true,
+      "purpose_limitation": true,
+      "storage_limitation": true
+    },
+    "user_rights": {
+      "right_to_access": true,
+      "right_to_correction": true,
+      "right_to_erasure": true,
+      "right_to_portability": false,
+      "right_to_object": false
+    }
+  },
+  
+  "security_measures": {
+    "authentication": {
+      "required": false,
+      "method": "anonymous",
+      "session_timeout": 3600
+    },
+    "data_protection": {
+      "file_encryption": false,
+      "ssl_enforced": true,
+      "input_validation": true,
+      "xss_protection": true,
+      "sql_injection_protection": true
+    },
+    "access_control": {
+      "role_based": false,
+      "ip_filtering": false,
+      "rate_limiting": true,
+      "max_file_size": 10485760
+    }
+  },
+  
+  "reporting_metrics": {
+    "daily_metrics": {
+      "total_contracts_analyzed": 0,
+      "average_analysis_time": 0,
+      "high_risk_contracts": 0,
+      "templates_generated": 0,
+      "unique_users": 0
+    },
+    "risk_distribution": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "contract_types_distribution": {
+      "employment": 0,
+      "vendor": 0,
+      "lease": 0,
+      "partnership": 0,
+      "service": 0,
+      "other": 0
+    },
+    "common_issues": {
+      "penalty_clauses": 0,
+      "indemnity_clauses": 0,
+      "unilateral_termination": 0,
+      "auto_renewal": 0,
+      "non_compete": 0
+    }
+  }
+}

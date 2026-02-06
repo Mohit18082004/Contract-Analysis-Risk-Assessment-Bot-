@@ -1,0 +1,207 @@
+CONSULTANCY AGREEMENT
+
+This Consultancy Agreement is entered into on {{ agreement_date }} between:
+
+CONSULTANT:
+Name: {{ consultant_name }}
+Address: {{ consultant_address }}
+Contact: {{ consultant_contact }}
+Professional License: {{ professional_license }}
+
+(Hereinafter referred to as "Consultant")
+
+AND
+
+CLIENT:
+Name: {{ client_name }}
+Address: {{ client_address }}
+Contact: {{ client_contact }}
+
+(Hereinafter referred to as "Client")
+
+1. ENGAGEMENT
+
+1.1 The Client hereby engages the Consultant to provide consultancy services on the terms and conditions set forth herein.
+
+1.2 The Consultant accepts this engagement and agrees to provide services as described.
+
+2. SCOPE OF CONSULTING SERVICES
+
+The Consultant shall provide the following services:
+
+{{ services_description }}
+
+Specific deliverables include:
+- {{ deliverable1 }}
+- {{ deliverable2 }}
+- {{ deliverable3 }}
+
+3. ENGAGEMENT TERM
+
+3.1 Commencement: {{ start_date }}
+3.2 Duration: {{ engagement_duration }}
+3.3 End Date: {{ end_date }}
+3.4 Extensions: {{ extension_terms }}
+
+4. CONSULTING FEES
+
+4.1 Fee Structure: {{ fee_structure }}
+   - Daily Rate: {{ daily_rate }} (if applicable)
+   - Monthly Retainer: {{ monthly_retainer }} (if applicable)
+   - Project Fee: {{ project_fee }} (if applicable)
+
+4.2 Expenses: {{ expense_policy }}
+
+4.3 Invoicing: The Consultant shall submit invoices {{ invoice_frequency }}
+
+4.4 Payment Terms: {{ payment_terms }}
+
+5. WORK SCHEDULE
+
+5.1 The Consultant shall work {{ hours_per_week }} hours per week.
+
+5.2 Location of Work: {{ work_location }}
+
+5.3 Availability: {{ availability_commitment }}
+
+6. CONSULTANT'S RESPONSIBILITIES
+
+The Consultant shall:
+a) Provide expert advice and guidance in the consulting area
+b) Develop recommendations and strategic plans
+c) Mentor and train Client's staff as required
+d) Provide timely progress reports
+e) Maintain professional conduct and ethics
+f) Respect Client's confidential information
+g) Comply with Client's policies and procedures
+
+7. CLIENT'S RESPONSIBILITIES
+
+The Client shall:
+a) Provide necessary information and access
+b) Assign a primary contact for coordination
+c) Provide workspace and resources as required
+d) Pay consulting fees as per agreed schedule
+e) Make timely decisions on recommendations
+
+8. CONFIDENTIALITY
+
+8.1 The Consultant agrees to maintain strict confidentiality regarding Client information.
+
+8.2 Confidential information shall not be disclosed to third parties.
+
+8.3 Confidentiality obligations shall survive termination for {{ confidentiality_duration }}.
+
+8.4 Exceptions include:
+    - Information that is publicly available
+    - Information independently developed
+    - Information required by law to disclose
+
+9. INTELLECTUAL PROPERTY RIGHTS
+
+9.1 Work product ownership: {{ ip_ownership }}
+
+9.2 The Consultant retains rights to general methodologies and tools developed prior to engagement.
+
+9.3 Client-specific deliverables become the sole property of the Client.
+
+10. INDEPENDENT CONTRACTOR STATUS
+
+10.1 The Consultant is an independent contractor, not an employee of the Client.
+
+10.2 The Consultant is responsible for:
+    - All taxes and deductions
+    - Professional liability insurance
+    - Workers' compensation
+
+11. LIABILITY AND INDEMNIFICATION
+
+11.1 The Consultant's liability is limited to fees paid in the preceding {{ liability_period }}.
+
+11.2 The Consultant shall indemnify the Client against claims arising from negligent performance of services.
+
+11.3 The Client shall indemnify the Consultant against third-party claims arising from Client's use of recommendations.
+
+12. PROFESSIONAL STANDARDS
+
+The Consultant agrees to:
+a) Maintain professional standards in consulting
+b) Comply with applicable laws and regulations
+c) Obtain required professional certifications
+d) Maintain professional liability insurance
+
+13. TERMINATION
+
+13.1 The Client may terminate for cause with {{ cause_notice_period }} days written notice.
+
+13.2 The Client may terminate without cause with {{ notice_period }} days written notice.
+
+13.3 The Consultant may terminate with {{ consultant_notice_period }} days written notice.
+
+13.4 Upon termination:
+    - Consultant shall complete work in progress
+    - Consultant shall hand over all deliverables
+    - Client shall pay fees earned through termination date
+
+14. CONFLICT OF INTEREST
+
+14.1 The Consultant shall disclose any potential conflicts of interest.
+
+14.2 The Consultant shall not engage in competing consulting for {{ non_compete_period }}.
+
+14.3 The Consultant shall prioritize Client's interests during engagement.
+
+15. PERFORMANCE STANDARDS
+
+15.1 The Consultant shall maintain high professional standards.
+
+15.2 The Consultant shall meet agreed deadlines and milestones.
+
+15.3 The Consultant shall provide regular updates to the Client.
+
+16. INSURANCE AND LIABILITY
+
+The Consultant shall maintain {{ insurance_types }} insurance with minimum coverage of {{ coverage_amount }}.
+
+17. DISPUTE RESOLUTION
+
+Disputes shall be resolved through {{ dispute_resolution_method }}.
+
+18. GOVERNING LAW
+
+This Agreement shall be governed by the laws of {{ governing_jurisdiction }}.
+
+19. GENERAL PROVISIONS
+
+19.1 Entire Agreement: This constitutes the entire agreement.
+
+19.2 Amendments: Must be in writing and signed by both parties.
+
+19.3 Severability: Invalid provisions do not affect others.
+
+19.4 Waiver: No waiver is effective unless in writing.
+
+IN WITNESS WHEREOF, the parties have executed this Consultancy Agreement:
+
+FOR THE CONSULTANT:
+
+{{ consultant_name }}
+Signature: ___________________
+Date: ___________________
+
+
+FOR THE CLIENT:
+
+{{ client_name }}
+Signature: ___________________
+Date: ___________________
+
+Witnesses:
+
+1. ___________________
+   Signature: ___________________
+   Date: ___________________
+
+2. ___________________
+   Signature: ___________________
+   Date: ___________________

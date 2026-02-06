@@ -1,0 +1,108 @@
+PARTNERSHIP DEED
+
+This Partnership Deed is entered into on {{ date }} between the parties mentioned below:
+
+PARTIES TO THE AGREEMENT:
+
+1. {{ partner1_name }}, resident of {{ partner1_address }}
+2. {{ partner2_name }}, resident of {{ partner2_address }}
+3. {{ partner3_name }}, resident of {{ partner3_address }} (if applicable)
+
+(Hereinafter referred to as "Partners")
+
+WHEREAS:
+
+WHEREAS, the Partners desire to enter into a partnership for the purpose of {{ business_purpose }} on the terms and conditions mentioned herein.
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements hereinafter contained, the parties agree as follows:
+
+1. NAME OF THE PARTNERSHIP
+
+The partnership shall be known as {{ partnership_name }}.
+
+2. PLACE OF BUSINESS
+
+The principal place of business of the partnership shall be at {{ business_address }}.
+
+3. NATURE OF BUSINESS
+
+The partnership shall be engaged in the business of {{ business_description }}.
+
+4. TERM OF PARTNERSHIP
+
+The partnership shall commence from {{ start_date }} and shall continue for a period of {{ duration }}, unless sooner dissolved in accordance with the provisions of this deed.
+
+5. CAPITAL CONTRIBUTION
+
+The capital to be contributed by each partner shall be as follows:
+- {{ partner1_name }}: {{ partner1_capital }}
+- {{ partner2_name }}: {{ partner2_capital }}
+- {{ partner3_name }}: {{ partner3_capital }} (if applicable)
+
+6. PROFIT SHARING RATIO
+
+The partners shall share profits and losses in the following ratio:
+- {{ partner1_name }}: {{ partner1_ratio }}%
+- {{ partner2_name }}: {{ partner2_ratio }}%
+- {{ partner3_name }}: {{ partner3_ratio }}% (if applicable)
+
+7. DRAWINGS AND INTEREST
+
+Each partner shall be entitled to draw {{ drawing_amount }} per month. Interest on capital shall be payable at {{ capital_interest }}% per annum.
+
+8. MANAGEMENT
+
+All decisions regarding the management of the partnership shall be taken by mutual consensus.
+
+9. DUTIES OF PARTNERS
+
+Each partner shall:
+a) Devote their time and skill to the partnership business
+b) Not engage in any competing business
+c) Maintain proper accounts and records
+d) Share financial information with other partners
+
+10. ADMITTANCE OF NEW PARTNERS
+
+No new partner shall be admitted without the written consent of all existing partners.
+
+11. DISSOLUTION
+
+The partnership may be dissolved:
+a) By mutual agreement of all partners
+b) Upon notice of {{ notice_period }} days by any partner
+c) Upon the death or incapacity of any partner
+
+12. ARBITRATION
+
+Any disputes arising out of this agreement shall be resolved through arbitration in accordance with {{ arbitration_rules }}.
+
+13. GOVERNING LAW
+
+This deed shall be governed by and construed in accordance with the laws of {{ governing_law }}.
+
+IN WITNESS WHEREOF, the parties have signed this Partnership Deed on the date first mentioned above.
+
+Signed by:
+
+{{ partner1_name }}
+Signature: ___________________
+Date: ___________________
+
+{{ partner2_name }}
+Signature: ___________________
+Date: ___________________
+
+{{ partner3_name }}
+Signature: ___________________
+Date: ___________________
+
+Witnesses:
+
+1. ___________________
+   Name: ___________________
+   Signature: ___________________
+
+2. ___________________
+   Name: ___________________
+   Signature: ___________________

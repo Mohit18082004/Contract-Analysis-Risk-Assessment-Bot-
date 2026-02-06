@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "embedding_dimension": 300,
+    "vocabulary_size": 50000,
+    "domain": "legal"
+  },
+  "sample_words": {
+    "contract": 1,
+    "agreement": 2,
+    "party": 3,
+    "obligation": 4,
+    "clause": 5,
+    "consideration": 6,
+    "termination": 7,
+    "liability": 8,
+    "indemnification": 9,
+    "representations": 10,
+    "warranties": 11,
+    "breach": 12,
+    "remedies": 13,
+    "dispute": 14,
+    "arbitration": 15,
+    "governing_law": 16,
+    "effective_date": 17,
+    "expiration_date": 18,
+    "payment": 19,
+    "compensation": 20
+  },
+  "note": "This is a sample mapping. Full embedding file (legal_embeddings.npy) contains 50000 word vectors of dimension 300."
+}

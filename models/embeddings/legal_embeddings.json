@@ -1,0 +1,20 @@
+{
+  "embeddings_info": {
+    "type": "word_embeddings",
+    "model": "legal_domain_embeddings",
+    "version": "1.0.0",
+    "status": "placeholder",
+    "embedding_dimension": 300,
+    "vocabulary_size": 50000,
+    "training_corpus": "Legal documents and contracts",
+    "training_date": "2025-01-15",
+    "format": "NumPy array (.npy)",
+    "description": "Pre-trained word embeddings specifically trained on legal domain texts for improved contract analysis"
+  },
+  "usage_notes": [
+    "Load embeddings using: numpy.load('legal_embeddings.npy')",
+    "Use with word_index.json to map words to embedding indices",
+    "Each word is represented as a 300-dimensional vector",
+    "Suitable for similarity calculations and semantic analysis"
+  ]
+}

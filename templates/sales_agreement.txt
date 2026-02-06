@@ -1,0 +1,201 @@
+SALES AGREEMENT
+
+This Sales Agreement is entered into on {{ agreement_date }} between:
+
+SELLER:
+Name: {{ seller_name }}
+Address: {{ seller_address }}
+Contact: {{ seller_contact }}
+Registration/License: {{ seller_registration }}
+
+(Hereinafter referred to as "Seller")
+
+AND
+
+BUYER:
+Name: {{ buyer_name }}
+Address: {{ buyer_address }}
+Contact: {{ buyer_contact }}
+
+(Hereinafter referred to as "Buyer")
+
+1. PRODUCT/SERVICE DESCRIPTION
+
+1.1 The Seller agrees to sell the following product(s)/service(s):
+
+Product Name: {{ product_name }}
+Description: {{ product_description }}
+Quantity: {{ quantity }}
+Quality Standards: {{ quality_standards }}
+Specifications: {{ specifications }}
+
+1.2 Product Condition: {{ product_condition }}
+
+2. PRICE AND PAYMENT TERMS
+
+2.1 Sale Price: {{ sale_price }}
+
+2.2 Price Breakdown:
+    - Product Cost: {{ product_cost }}
+    - Taxes: {{ tax_amount }}
+    - Shipping: {{ shipping_cost }}
+    - Handling: {{ handling_cost }}
+    - Total: {{ total_price }}
+
+2.3 Payment Terms: {{ payment_terms }}
+
+2.4 Payment Method: {{ payment_method }}
+
+2.5 Currency: {{ currency }}
+
+2.6 Late Payment: Interest at {{ late_payment_interest }}% per month shall apply.
+
+3. DELIVERY
+
+3.1 Delivery Location: {{ delivery_location }}
+
+3.2 Delivery Date: {{ delivery_date }}
+
+3.3 Shipping Method: {{ shipping_method }}
+
+3.4 Shipping Terms: {{ shipping_terms }} (FOB, CIF, etc.)
+
+3.5 Risk of Loss: {{ risk_of_loss_terms }}
+
+3.6 Delay in Delivery: 
+    - Seller shall notify Buyer of any delays
+    - Buyer may cancel order if delay exceeds {{ cancellation_days }} days
+
+4. INSPECTION AND ACCEPTANCE
+
+4.1 Buyer shall inspect the product within {{ inspection_period }} days of delivery.
+
+4.2 Buyer shall notify Seller of any defects or damage within {{ notification_period }} days.
+
+4.3 Failure to notify constitutes acceptance of the product.
+
+4.4 Acceptance does not waive warranty rights.
+
+5. WARRANTIES
+
+5.1 WARRANTY OF TITLE:
+The Seller warrants that it has valid title to the product and right to sell it.
+
+5.2 WARRANTY OF MERCHANTABILITY:
+The product is fit for ordinary purposes.
+
+5.3 WARRANTY OF FITNESS FOR PARTICULAR PURPOSE:
+The product is suitable for the specific use if communicated to the Seller.
+
+5.4 WARRANTY PERIOD:
+These warranties shall apply for {{ warranty_period }} from delivery.
+
+5.5 WARRANTY DISCLAIMER:
+{{ warranty_disclaimer_statement }}
+
+6. RETURNS AND REFUNDS
+
+6.1 Return Period: {{ return_period }} days from delivery
+
+6.2 Condition for Returns: {{ return_condition }}
+
+6.3 Return Shipping: {{ return_shipping_responsibility }}
+
+6.4 Refund Process:
+    - Seller shall inspect returned product
+    - Refund shall be processed within {{ refund_processing_time }}
+    - Refund Amount: {{ refund_amount_terms }}
+
+6.5 Non-Returnable Items: {{ non_returnable_items }}
+
+7. PRODUCT LIABILITY
+
+7.1 The Seller warrants the product complies with all applicable safety standards.
+
+7.2 The Seller shall indemnify the Buyer against product liability claims.
+
+7.3 This clause survives any expiration of warranties.
+
+8. INTELLECTUAL PROPERTY
+
+8.1 If the product contains intellectual property, Seller grants Buyer a non-exclusive license to use it for {{ ip_usage_scope }}.
+
+8.2 Buyer shall not modify or reverse-engineer the product without permission.
+
+9. CONFIDENTIALITY
+
+Both parties agree to maintain confidentiality regarding business information shared.
+
+10. TERMINATION
+
+10.1 Either party may cancel unprepared orders with {{ cancellation_notice }} days notice.
+
+10.2 Cancellation of shipped products subject to return policy.
+
+11. LIMITATION OF LIABILITY
+
+11.1 Seller's liability is limited to the product price.
+
+11.2 Seller is not liable for indirect, incidental, or consequential damages.
+
+11.3 Buyer's remedies are limited to return, repair, or replacement.
+
+12. TAX AND REGULATORY COMPLIANCE
+
+12.1 The Buyer is responsible for applicable taxes and duties.
+
+12.2 Both parties shall comply with export/import regulations.
+
+13. DISPUTE RESOLUTION
+
+Disputes shall be resolved through {{ dispute_resolution_method }}.
+
+14. FORCE MAJEURE
+
+Neither party is liable for delays due to events beyond reasonable control (natural disasters, war, etc.).
+
+15. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement and supersedes all prior understandings.
+
+16. GOVERNING LAW
+
+This Agreement shall be governed by the laws of {{ governing_jurisdiction }}.
+
+17. AMENDMENTS
+
+No amendments are valid unless in writing and signed by both parties.
+
+18. GENERAL PROVISIONS
+
+18.1 Severability: Invalid provisions do not affect others.
+
+18.2 Waiver: No waiver is effective unless in writing.
+
+18.3 Notices: All notices shall be in writing and delivered personally or by registered mail.
+
+IN WITNESS WHEREOF, the parties have executed this Sales Agreement:
+
+FOR THE SELLER:
+
+{{ seller_name }}
+Signature: ___________________
+Title: ___________________
+Date: ___________________
+
+
+FOR THE BUYER:
+
+{{ buyer_name }}
+Signature: ___________________
+Date: ___________________
+
+Witnesses:
+
+1. ___________________
+   Signature: ___________________
+   Date: ___________________
+
+2. ___________________
+   Signature: ___________________
+   Date: ___________________

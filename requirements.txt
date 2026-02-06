@@ -1,0 +1,6 @@
+streamlit
+pandas
+python-dotenv
+openai
+spacy
+numpy

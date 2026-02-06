@@ -1,0 +1,135 @@
+SERVICE CONTRACT
+
+This Service Contract is entered into on {{ contract_date }} between:
+
+SERVICE PROVIDER:
+Name: {{ service_provider_name }}
+Address: {{ service_provider_address }}
+Contact: {{ service_provider_contact }}
+
+(Hereinafter referred to as "Service Provider")
+
+AND
+
+CLIENT:
+Name: {{ client_name }}
+Address: {{ client_address }}
+Contact: {{ client_contact }}
+
+(Hereinafter referred to as "Client")
+
+1. SCOPE OF SERVICES
+
+The Service Provider agrees to provide the following services (Hereinafter referred to as "Services"):
+
+{{ services_description }}
+
+Deliverables:
+- {{ deliverable1 }}
+- {{ deliverable2 }}
+- {{ deliverable3 }}
+
+2. TERM OF SERVICE
+
+This contract shall commence from {{ start_date }} and shall continue until {{ end_date }}, unless terminated earlier as per the terms of this agreement.
+
+3. FEES AND PAYMENT TERMS
+
+3.1 The Client shall pay the Service Provider a fee of {{ service_fee }} for the Services rendered.
+
+3.2 Payment Terms: {{ payment_terms }}
+
+3.3 Payment Method: {{ payment_method }}
+
+3.4 Invoicing: The Service Provider shall submit invoices {{ invoice_frequency }}.
+
+4. SERVICE LEVEL AGREEMENT
+
+4.1 The Service Provider shall maintain a service availability of {{ availability_percentage }}%.
+
+4.2 Response time for service requests: {{ response_time }}
+
+4.3 Resolution time for issues: {{ resolution_time }}
+
+5. RESPONSIBILITIES OF THE SERVICE PROVIDER
+
+The Service Provider shall:
+a) Provide services in a professional and timely manner
+b) Maintain confidentiality of all Client information
+c) Ensure quality standards as per industry norms
+d) Provide regular updates and reports
+e) Respond to inquiries within {{ response_time }}
+
+6. RESPONSIBILITIES OF THE CLIENT
+
+The Client shall:
+a) Provide necessary information and resources for service delivery
+b) Pay fees as per agreed payment terms
+c) Grant access to systems and information as required
+d) Provide timely feedback
+
+7. INTELLECTUAL PROPERTY RIGHTS
+
+All intellectual property created during the term of this agreement shall {{ ip_ownership }}.
+
+8. CONFIDENTIALITY
+
+Both parties agree to maintain strict confidentiality regarding proprietary information shared during the engagement.
+
+9. TERMINATION
+
+9.1 Either party may terminate this agreement with {{ termination_notice_period }} days written notice.
+
+9.2 Upon termination, the Service Provider shall:
+    a) Complete all work in progress
+    b) Hand over all deliverables
+    c) Cease using Client's information
+
+10. LIABILITY AND INDEMNIFICATION
+
+10.1 The Service Provider's total liability shall not exceed the fees paid in the last {{ liability_period }}.
+
+10.2 The Service Provider shall indemnify the Client against any third-party claims arising from the Services.
+
+11. INDEPENDENT CONTRACTOR
+
+The Service Provider is an independent contractor and not an employee of the Client.
+
+12. GOVERNING LAW
+
+This contract shall be governed by the laws of {{ governing_jurisdiction }}.
+
+13. DISPUTE RESOLUTION
+
+Any disputes shall be resolved through {{ dispute_resolution_method }}.
+
+14. GENERAL PROVISIONS
+
+14.1 Amendments: This agreement can be amended only in writing with mutual consent.
+
+14.2 Entire Agreement: This constitutes the entire agreement between the parties.
+
+14.3 Severability: If any provision is found invalid, other provisions remain in effect.
+
+IN WITNESS WHEREOF, the parties have executed this Service Contract:
+
+FOR THE SERVICE PROVIDER:
+
+{{ service_provider_name }}
+Signature: ___________________
+Date: ___________________
+
+
+FOR THE CLIENT:
+
+{{ client_name }}
+Signature: ___________________
+Date: ___________________
+
+Witnesses (if required):
+
+1. ___________________
+   Signature: ___________________
+
+2. ___________________
+   Signature: ___________________
