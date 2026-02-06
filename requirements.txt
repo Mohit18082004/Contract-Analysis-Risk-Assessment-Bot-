@@ -4,3 +4,4 @@ python-dotenv
 openai
 spacy
 numpy
+PyPDF2
