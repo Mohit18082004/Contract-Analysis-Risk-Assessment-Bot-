@@ -1,7 +1,7 @@
 streamlit
 pandas
-python-dotenv
-openai
-spacy
 numpy
+scikit-learn
+openai
 PyPDF2
+python-docx
