@@ -5,3 +5,4 @@ venv/
 .venv/
 env/
 .streamlit/secrets.toml
+package-lock.json

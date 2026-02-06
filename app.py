@@ -17,12 +17,7 @@ if not key:
     print("OPENAI_API_KEY not set")
 else:
     try:
-        client = OpenAI(api_key=key)# Correct
-        key = os.getenv("OPENAI_API_KEY")
-        
-        # Incorrect (This will cause the push to fail again)
-        # key = "sk-proj-12345..." 
-        
+        client = OpenAI(api_key=key)
         models = client.models.list()
         print("OpenAI reachable, models count:", len(models.data))
     except Exception as e:
